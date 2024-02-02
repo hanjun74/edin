@@ -7,7 +7,6 @@ def sigmoid_derivative(f):
     return f * (1 - f)
 
 def initialize_parameters():
-    np.random.seed(42)
     weights_input_hidden = np.array([[6.0, 8.0], [-6.0, -8.0]])
     weights_hidden_output = np.array([[6.0], [-6.0]])
     bias_hidden = np.array([[ 2.0,  -1.0 ]])
