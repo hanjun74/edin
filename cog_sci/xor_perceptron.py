@@ -11,7 +11,6 @@ def initialize_parameters():
     weights_hidden_output = np.array([[6.0], [-6.0]])
     bias_hidden = np.array([[ 2.0,  -1.0 ]])
     bias_output = np.array([[ -2.0 ]])
-
     return weights_input_hidden, weights_hidden_output, bias_hidden, bias_output
 
 def forward_propagation(inputs, weights_input_hidden, weights_hidden_output, bias_hidden, bias_output):
